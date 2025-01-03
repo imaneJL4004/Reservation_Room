@@ -1,10 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="reservation_rooms:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26fe9cf4-52a8-42f3-b3a3-452c1b84df92" name="Changes" comment="" />
+    <list default="true" id="26fe9cf4-52a8-42f3-b3a3-452c1b84df92" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/config/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/dao/ReservationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/dao/RoomDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/model/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/AddReservationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/AddRoomServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/AddUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/DashboardServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/DeleteReservationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/DeleteRoomServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/DeleteUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/EditReservationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/EditRoomServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/EditUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/ListReservationsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/ListRoomsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/ListUsersServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/SignUpServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/admin/AdminDashboardServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/admin/AdminListRoomsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/client/ClientCancelReservationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/client/ClientDashboardServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/client/ClientEditReservationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/client/ClientListAvailableRoomsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usermanagement/servlet/client/ClientMakeReservationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add-reservation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add-room.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add-user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/client/available-rooms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/client/edit-reservation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/client/make-reservation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/clientdashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/container.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit-reservation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit-room.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit-user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-reservations.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-rooms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-users.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +71,25 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "imaneJL4004"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/imaneJL4004/Reservation_Room.git",
+    "accountId": "802a3708-5752-43b1-bb3d-677bf0d1183a"
+  }
+}]]></component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -35,8 +113,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat .executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ASUS/Downloads/TPJAVAEE/reservation_rooms/src/main/java/com/example/usermanagement",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -97,11 +181,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735934206795</updated>
-      <workItem from="1735934207732" duration="4000" />
+      <workItem from="1735934207732" duration="440000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1735934326964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735934326964</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
